@@ -1,0 +1,254 @@
+body {
+    background-color: powderblue;
+
+}
+
+#body2{
+    background-color: yellow;
+}
+#body3{
+    background-color: red;
+}
+
+title1   {
+    margin-right: 0%;
+    margin-top: 200px;
+    margin-left: 0px;
+    font-family: "Times New Roman";
+    font-size: 100px;
+    color: black;
+}
+
+.btn1{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.btn1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn2{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.btn2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn3{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.btn3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    color: black;
+    padding: 20px 34px;
+    tex-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.image-stack__item--top {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    padding-top: 30%;
+    z-index: 1;
+}
+.image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+.img1 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img3{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+
+.img4 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img5{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img6{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img7{
+    position: absolute;
+    top: 50%;
+    right: 35%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img8{
+    position: absolute;
+    top: -20%;
+    right: 0%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+
+.img9 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10%;
+    width: 50%;
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img10{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+.img11{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+
+    border-style: outset;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
